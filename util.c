@@ -7,5 +7,9 @@ void greetings()
 
 int add(int a, int b)
 {
-  ///TODO: finish this function
+  int v;
+  v = a * b;
+  printf("%d", v);
+  return v;
 }
+
